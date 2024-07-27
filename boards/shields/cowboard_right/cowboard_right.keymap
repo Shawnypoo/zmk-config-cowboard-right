@@ -64,6 +64,6 @@
     &percom       &rspc     &larr    &uarr     &rarr
     &kp RSHIFT                       &darr
             >;
-        }
+        };
     };
 };
