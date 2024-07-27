@@ -5,35 +5,35 @@
 / {
     behaviors {
         percom: period_comma {
-            compatible = "zmk, behavior-mod-morph";
+            compatible = "zmk,behavior-mod-morph";
             #binding-cells = <0>;
             bindings = <&kp KP_DOT>, <&kp KP_COMMA>;
             mods = <(MOD_RSFT)>;
         };
         
         larr: left_arrow {
-            compatible = "zmk, behavior-mod-morph";
+            compatible = "zmk,behavior-mod-morph";
             #binding-cells = <0>;
             bindings = <&kp LEFT_ARROW>, <&kp C_PREVIOUS>;
             mods = <(MOD_RSFT)>;
         };
 
         uarr: up_arrow {
-            compatible = "zmk, behavior-mod-morph";
+            compatible = "zmk,behavior-mod-morph";
             #binding-cells = <0>;
             bindings = <&kp UP_ARROW>, <&kp C_VOLUME_UP>;
             mods = <(MOD_RSFT)>;
         };
 
         rarr: right_arrow {
-            compatible = "zmk, behavior-mod-morph";
+            compatible = "zmk,behavior-mod-morph";
             #binding-cells = <0>;
             bindings = <&kp RIGHT_ARROW>, <&kp C_NEXT>;
             mods = <(MOD_RSFT)>;
         };
 
         darr: down_arrow {
-            compatible = "zmk, behavior-mod-morph";
+            compatible = "zmk,behavior-mod-morph";
             #binding-cells = <0>;
             bindings = <&kp DOWN_ARROW>, <&kp C_VOLUME_DOWN>;
             mods = <(MOD_RSFT)>;
