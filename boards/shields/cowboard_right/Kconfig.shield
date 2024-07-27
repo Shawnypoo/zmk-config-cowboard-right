@@ -1,2 +1,2 @@
-config SHIELD_COWBOARD_RIGHT
+config SHIELD_RCOWBOARD
     def bool $(shields_list_contains, cowboard_right)
