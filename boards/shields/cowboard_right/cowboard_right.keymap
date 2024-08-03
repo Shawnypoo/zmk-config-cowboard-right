@@ -47,7 +47,7 @@
             #binding-cells = <0>;
             bindings = <&kp SLASH>, <&mo BLUETOOTH>;
             mods = <(MOD_RSFT)>;
-        }
+        };
     };
 
     keymap {
