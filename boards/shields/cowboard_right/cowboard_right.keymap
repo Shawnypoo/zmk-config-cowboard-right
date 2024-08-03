@@ -64,7 +64,7 @@
                   &kp Y     &kp U    &kp I     &kp O     &kp P         &kp ESCAPE                                    
                   &kp H     &kp J    &kp K     &kp L     &kp SEMICOLON &kp SINGLE_QUOTE                                            
     &kp BACKSPACE &kp N     &kp M    &kp MINUS &kp EQUAL &kp SLASH
-    &percom       &SPACE     &larr    &uarr     &rarr
+    &percom       &kp SPACE     &larr    &uarr     &rarr
     &kp RSHIFT                       &darr
             >;
         };
