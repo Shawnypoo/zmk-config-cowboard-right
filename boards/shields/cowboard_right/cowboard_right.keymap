@@ -45,7 +45,7 @@
         btsw: bluetooth_switch {
             compatible = "zmk,behavior-mod-morph";
             #binding-cells = <0>;
-            bindings = <&kp SLASH>, <&mo BLUETOOTH>;
+            bindings = <&kp BACKSPACE>, <&mo BLUETOOTH>;
             mods = <(MOD_RSFT)>;
         };
     };
@@ -63,7 +63,7 @@
             bindings = <
                   &kp Y     &kp U    &kp I     &kp O     &kp P         &kp ESCAPE                                    
                   &kp H     &kp J    &kp K     &kp L     &kp SEMICOLON &kp SINGLE_QUOTE                                            
-    &kp BACKSPACE &kp N     &kp M    &kp MINUS &kp EQUAL &btsw
+    &btsw &kp N     &kp M    &kp MINUS &kp EQUAL &kp SLASH
     &percom       &kp SPACE     &larr    &uarr     &rarr
     &kp RSHIFT                       &darr
             >;
