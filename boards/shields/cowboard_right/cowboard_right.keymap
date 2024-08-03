@@ -63,7 +63,7 @@
             bindings = <
                   &kp Y     &kp U    &kp I     &kp O     &kp P         &kp ESCAPE                                    
                   &kp H     &kp J    &kp K     &kp L     &kp SEMICOLON &kp SINGLE_QUOTE                                            
-    &btsw &kp N     &kp M    &kp MINUS &kp EQUAL &kp SLASH
+    &btsw         &kp N     &kp M    &kp MINUS &kp EQUAL &kp SLASH
     &percom       &kp SPACE     &larr    &uarr     &rarr
     &kp RSHIFT                       &darr
             >;
@@ -71,7 +71,7 @@
 
         bluetooth_layer {
             bindings = <
-            &bt BT_SEL 0     &bt BT_SEL 1    &bt BT_SEL 2     &bt BT_SEL 3     &bt BT_SEL 4         &kp BT_CLR                                    
+            &bt BT_SEL 0     &bt BT_SEL 1    &bt BT_SEL 2     &bt BT_SEL 3     &bt BT_SEL 4         &bt BT_CLR                                    
             &trans           &trans          &trans           &trans           &trans               &trans                                            
     &trans  &trans           &trans          &trans           &trans           &trans
     &trans  &trans           &trans          &trans           &trans
